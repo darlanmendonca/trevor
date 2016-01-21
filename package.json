@@ -1,0 +1,38 @@
+{
+  "name": "trevor",
+  "version": "0.0.0",
+  "description": "My best Friend!! Trevor is an Admin theme, built in with Angular and React, following Material Design.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darlanmendonca/trevor.git"
+  },
+  "keywords": [
+    "trevor",
+    "admin",
+    "theme",
+    "template",
+    "angular",
+    "react",
+    "material-design"
+  ],
+  "author": "Darlan Mendonça <darlanmendonca@gmail.com> (https://github.com/darlanmendonca)",
+  "homepage": "https://github.com/darlanmendonca/trevor#readme",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darlanmendonca/trevor/issues"
+  },
+  "engines": {
+    "node": ">=0.4.0",
+    "npm": ">=1.2.10"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.1.1",
+    "gulp-util": "^3.0.7"
+  }
+}
