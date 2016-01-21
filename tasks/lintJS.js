@@ -4,8 +4,6 @@ const gulp = require('gulp');
 const config = require('../config.js');
 const eslint = require('gulp-eslint');
 
-const test = 'test';
-
 gulp.task('lintJS', lintJS);
 
 function lintJS() {
