@@ -1,0 +1,37 @@
+md-toolbar {
+  box-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  z-index: 10;
+  overflow: hidden;
+  position: fixed;
+
+  .md-icon-button {
+    font-size: 23px;
+  }
+
+  .logotipo {
+    display: block;
+    width: 130px;
+    margin-left: 25px;
+    height: 56px;
+    cursor: pointer;
+
+    @media (max-width: $md-max-width) {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin-left: 0;
+    }
+
+    svg, img {max-width: 100%}
+
+    path {
+      fill: white;
+      transition: fill .2s ease;
+    }
+  }
+
+  .md-menu {
+    padding: 0;
+  }
+}

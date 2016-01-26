@@ -1,0 +1,74 @@
+.list {
+  margin-bottom: 25px;
+  text-align: left;
+
+  .title {
+    color: $hidden-color;
+    font-weight: normal
+  }
+
+  .title, .item {
+    padding: 13px;
+    padding-left: 30px;
+  }
+
+  .item {
+    border-top: 1px solid rgb(240, 240, 240);
+    transition: background .2s ease;
+    line-height: 48px;
+
+    &.two-lines {
+      line-height: 24px;
+      span, a {
+        color: $hidden-color;
+        font-size: 14px;
+        display: table;
+        text-decoration: none;
+        transition: color .2s ease;
+
+        &:hover, &:focus {
+          color: $primary-color;
+        }
+      }
+    }
+
+
+    &[href]:hover {
+      background: rgb(242, 242, 242);
+      cursor: pointer;
+
+      .md-button {
+        opacity: 1;
+        pointer-events: all;
+        transform: scale(1);
+        margin: 0;
+      }
+    }
+
+    .md-button {
+      font-size: 23px;
+      color: $hidden-color;
+      opacity: 0;
+      pointer-events: none;
+      transform: scale(.7);
+      transition: all .2s ease;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+  }
+
+  @media screen and (max-width: $md-max-width) {
+    .item, .title {
+      div + div {display: none}
+    }
+  }
+}
+
+md-menu-item i.zmdi {
+  font-size: 18px;
+  margin-right: 10px;
+  line-height: 2em;
+  transform: translate(0, 1px);
+}

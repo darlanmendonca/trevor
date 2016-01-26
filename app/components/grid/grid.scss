@@ -1,0 +1,18 @@
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 80px 15px 20px;
+
+
+  @media (min-width: 768px) {
+    width: calc(100% - 30px);
+  }
+
+  @media (min-width: 992px) {
+    width: calc(100% - 30px);
+  }
+
+  @media (min-width: 1200px) {
+    width: 1170px;
+  }
+}

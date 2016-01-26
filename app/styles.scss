@@ -1,0 +1,28 @@
+html, body {
+  height: initial;
+  -webkit-font-smoothing: antialiased;
+  font-family: helvetica, sans-serif;
+  background-color: #F9F9F9;
+}
+
+img {
+  max-width: 100%;
+}
+
+$primary-color: rgb(233,30,99);
+$primary-color-hue-1: #F06292;
+$primary-color-hue-3: #FF80AB;
+$hidden-color: silver;
+$white-color: #fff;
+$md-max-width: 599px;
+
+
+@import 'components/header/header';
+@import 'components/login/login';
+@import 'components/menu/menu';
+@import 'components/card/card';
+@import 'components/form/form';
+@import 'components/grid/grid';
+@import 'components/list/list';
+@import 'components/views/views';
+

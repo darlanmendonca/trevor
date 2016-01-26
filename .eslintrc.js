@@ -6,7 +6,6 @@ let options = {
 		'browser': true
   },
   'rules': {
-		'array-bracket-spacing': [2, 'never'],
 		'block-scoped-var': 2,
 		'brace-style': [2, '1tbs'],
 		'camelcase': 1,
@@ -23,7 +22,6 @@ let options = {
 		'no-trailing-spaces': 2,
 		'no-unused-vars': 2,
 		'no-use-before-define': [2, 'nofunc'],
-		'object-curly-spacing': [2, 'never'],
 		'quotes': [2, 'single', 'avoid-escape'],
 		'semi': [2, 'always'],
 		'space-after-keywords': [2, 'always'],

@@ -1,0 +1,58 @@
+.card {
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 1px;
+  // margin-bottom: 30px;
+  background: rgb(255, 255, 255);
+}
+
+.card-header {
+  position: relative;
+  padding: 23px 25px;
+
+  h2 {
+    line-height: 100%;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0px;
+  }
+
+  h2 small {
+    display: block;
+    margin-top: 5px;
+    color: rgb(174, 174, 174);
+    line-height: 160%;
+    font-size: 12px;
+  }
+}
+
+.card form {
+  padding: 23px 25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: rgb(0, 0, 0);
+}
+
+.card .actions {
+  padding: 0;
+  margin: 0;
+  transform: translate(15px, -15px);
+
+  .md-button {
+    font-size: 23px;
+    margin: 0;
+    color: $hidden-color;
+    transition: color .2s ease;
+
+    &:hover, &:focus {
+      color: $primary-color;
+    }
+  }
+
+  .md-menu {
+    padding: 0;
+  }
+}

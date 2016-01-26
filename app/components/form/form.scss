@@ -1,0 +1,42 @@
+md-input-container label {
+  pointer-events: none;
+  user-select: none;
+}
+
+.help-block {
+  user-select: none;
+}
+
+.md-chips {
+  padding-left: 0px;
+}
+
+.md-chips .md-chip-input-container {
+  padding: 0px 2px;
+}
+
+md-tab-content {
+  padding-top: 40px;
+}
+
+form h4 {
+  margin-bottom: 30px;
+}
+
+.card form .md-icon-float {
+  &.md-input-focused, &.md-input-has-value {
+    margin-top: -16px;
+  }
+}
+
+.card md-input-container {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+small.help-block {
+  margin-bottom: 0;
+  height: 0;
+  min-height: 0px;
+  margin-top: 3px;
+}
