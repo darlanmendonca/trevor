@@ -1,7 +1,11 @@
 {
   "name": "trevor",
+  "version": "0.0.0",
   "description": "Trevor is an Admin components, built in with Angular and React, following Material Design.",
-  "main": "dist/trevor.min.js",
+  "main": [
+    "dist/trevor.min.js",
+    "dist/trevor.min.css",
+  ],
   "authors": [
     "Darlan Mendonça <darlanmendonca@gmail.com> (https://github.com/darlanmendonca)"
   ],

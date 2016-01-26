@@ -4,6 +4,7 @@ let gulp = require('gulp');
 let bower = require('bower-files')();
 let dependencies = bower.relative(__dirname).ext('scss').files;
 let sass = require('gulp-sass');
+let concat = require('gulp-concat');
 let autoprefixer = require('gulp-autoprefixer');
 let config = require('../config.js');
 
@@ -12,6 +13,7 @@ gulp.task('styles', function() {
     .src(config.styles.src)
     .pipe(sass(config.sass).on('error', onError))
     .pipe(autoprefixer())
+    .pipe(concat(config.styles.destFile))
     .pipe(gulp.dest(config.styles.dest));
 });
 

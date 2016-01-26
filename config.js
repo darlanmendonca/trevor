@@ -24,7 +24,8 @@ let config = {
   },
   styles: {
     src: './app/styles.scss',
-    dest: './dist/trevor.min.css'
+    dest: './dist',
+    destFile: 'trevor.min.css'
   }
 };
 
