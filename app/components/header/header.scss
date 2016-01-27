@@ -1,8 +1,12 @@
-md-toolbar {
+[ui-view] md-toolbar {
   box-shadow: 0 1px 4px rgba(0,0,0,0.3);
-  z-index: 10;
+  z-index: 10 !important;
   overflow: hidden;
   position: fixed;
+
+  &.fixed {
+    position: fixed !important;
+  }
 
   .md-icon-button {
     font-size: 23px;

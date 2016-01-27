@@ -1,8 +1,6 @@
 'use strict';
 
 let gulp = require('gulp');
-let bower = require('bower-files')();
-let dependencies = bower.relative(__dirname).ext('scss').files;
 let sass = require('gulp-sass');
 let concat = require('gulp-concat');
 let autoprefixer = require('gulp-autoprefixer');
