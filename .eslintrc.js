@@ -1,18 +1,18 @@
 'use strict';
 
 let options = {
-  'env': {
-		'node': true,
-		'browser': true
+  env: {
+		node: true,
+		browser: true
   },
-  'rules': {
+  rules: {
 		'block-scoped-var': 2,
 		'brace-style': [2, '1tbs'],
-		'camelcase': 1,
+		camelcase: 1,
 		'computed-property-spacing': [2, 'never'],
-		'curly': 2,
+		curly: 2,
 		'eol-last': 2,
-		'eqeqeq': [2, 'smart'],
+		eqeqeq: [2, 'smart'],
 		'max-depth': [1, 3],
 		'max-len': [1, 80],
 		'max-statements': [1, 15],
@@ -22,16 +22,19 @@ let options = {
 		'no-trailing-spaces': 2,
 		'no-unused-vars': 2,
 		'no-use-before-define': [2, 'nofunc'],
-		'quotes': [2, 'single', 'avoid-escape'],
-		'semi': [2, 'always'],
+		quotes: [2, 'single', 'avoid-escape'],
+		semi: [2, 'always'],
 		'space-after-keywords': [2, 'always'],
 		'space-unary-ops': 2
   },
-  'ecmaFeatures': {
-		'blockBindings': true,
-		'arrowFunctions': true,
-		'spread': true,
-		'templateStrings': true,
+  ecmaFeatures: {
+		blockBindings: true,
+		arrowFunctions: true,
+		spread: true,
+		templateStrings: true,
+    objectLiteralComputedProperties: true,
+    objectLiteralShorthandMethods: true,
+    objectLiteralShorthandProperties: true
   }
 };
 

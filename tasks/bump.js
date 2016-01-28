@@ -1,7 +1,6 @@
 'use strict';
 
 let gulp = require('gulp');
-let config = require('../config.js');
 let bump = require('gulp-bump');
 let args = require('yargs').argv;
 
