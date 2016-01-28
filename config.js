@@ -26,6 +26,9 @@ let config = {
     src: './app/styles.scss',
     dest: './dist',
     destFile: 'trevor.min.css'
+  },
+  bump: {
+    type: 'minor'
   }
 };
 
