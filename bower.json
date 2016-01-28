@@ -19,6 +19,7 @@
     "react",
     "material-design"
   ],
+  "ignore": [],
   "homepage": "https://github.com/darlanmendonca/trevor",
   "moduleType": []
 }
