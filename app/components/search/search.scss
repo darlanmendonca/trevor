@@ -1,0 +1,46 @@
+.card form.search {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 4;
+  background: #fff;
+  pointer-events: all;
+  opacity: 1;
+  transition: opacity .3s ease;
+  border-bottom: 1px solid #EEE;
+  box-sizing: border-box;
+
+  @media screen and (max-width: $md-max-width) {
+    padding: 10px;
+
+    input {
+      height: 40px;
+    }
+
+    .zmdi-close-circle {
+      top: 15px
+    }
+  }
+
+  &.hidden {
+    pointer-events: none;
+    opacity: 0;
+  }
+
+  .zmdi {
+    font-size: 23px;
+  }
+
+  .zmdi-close-circle {
+    right: 2px;
+    left: auto;
+  }
+
+  input {
+    margin-right: 36px;
+  }
+
+  .md-input-container {margin-top: -16px !important}
+}
