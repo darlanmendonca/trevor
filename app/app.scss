@@ -17,13 +17,13 @@ $white-color: #fff;
 $md-max-width: 599px;
 
 
-@import 'components/header/header';
-@import 'components/login/login';
-@import 'components/menu/menu';
-@import 'components/card/card';
-@import 'components/form/form';
-@import 'components/grid/grid';
-@import 'components/list/list';
-@import 'components/views/views';
-@import 'components/search/search';
+@import 'header/header';
+@import 'login/login';
+@import 'menu/menu';
+@import 'card/card';
+@import 'form/form';
+@import 'grid/grid';
+@import 'list/list';
+@import 'views/views';
+@import 'search/search';
 

@@ -2,7 +2,10 @@
   "name": "trevor",
   "version": "0.0.3",
   "description": "My best Friend!! Trevor is an Admin theme, built in with Angular and React, following Material Design.",
-  "main": "index.js",
+  "main": [
+    "./dist/trevor.min.js",
+    "./dist/trevor.min.css"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

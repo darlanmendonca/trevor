@@ -6,10 +6,10 @@ let config = {
     './gulpfile.js',
     './tasks/*.js',
     './eslintrc.js',
-    './app/components/**/*.js'
+    './app/**/*.js'
   ],
   scripts: {
-    src: './app/components/**/*.js',
+    src: './app/**/*.js',
     dest: './dist',
     destFile: 'trevor.min.js'
   },
@@ -23,7 +23,7 @@ let config = {
     outputStyle: 'compressed'
   },
   styles: {
-    src: './app/styles.scss',
+    src: './app/app.scss',
     dest: './dist',
     destFile: 'trevor.min.css'
   },
