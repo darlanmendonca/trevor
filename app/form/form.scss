@@ -40,3 +40,22 @@ small.help-block {
   min-height: 0px;
   margin-top: 3px;
 }
+
+
+md-datepicker-container {
+  label {
+    color: rgba(0,0,0,0.54);
+    transform: translate3d(65px, 6px, 0) scale(0.75);
+    font-weight: bold;
+  }
+
+  md-datepicker {
+    margin-top: 16px;
+  }
+
+  .help-block {
+    padding-left: 70px;
+    transform: translateY(-10px);
+    color: rgb(213,0,0);
+  }
+}
