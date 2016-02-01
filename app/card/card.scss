@@ -41,6 +41,17 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   transform: translate(15px, -15px);
 
+  .md-fab {
+    position: absolute;
+    top: 94px;
+    right: -40px;
+    line-height: 43px !important;
+
+    @media (min-width: 768px) {
+      right: -20px;
+    }
+  }
+
   .md-button {
     font-size: 23px;
     margin: 0;
