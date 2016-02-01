@@ -59,6 +59,11 @@
     }
   }
 
+  .no-results {
+    background: #fafafa;
+    text-align: center;
+  }
+
   @media screen and (max-width: $md-max-width) {
     .item, .title {
       div + div {display: none}
