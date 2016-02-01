@@ -1,6 +1,6 @@
 {
   "name": "trevor",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "My best Friend!! Trevor is an Admin theme, built in with Angular and React, following Material Design.",
   "main": [
     "./dist/trevor.min.js",
