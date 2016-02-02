@@ -102,6 +102,29 @@
       margin-left: 10px;
     }
   }
+
+  .alert {
+    color: rgb(213,0,0);
+    text-align: center;
+    margin-top: 0px;
+    position: absolute;
+    bottom: -100px;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: showAlert .2s ease backwards;
+  }
+
+  @keyframes showAlert {
+    0% {
+      opacity: 0;
+      transform: translate(-50%, -40%);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(-50%, -50%);
+    }
+  }
 }
 
 .login {
