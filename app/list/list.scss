@@ -21,6 +21,9 @@
       white-space: nowrap;
       text-overflow: ellipsis;
       overflow: hidden;
+      box-sizing: border-box;
+
+      & + div {padding-left: 20px;}
     }
 
     &.two-lines {
