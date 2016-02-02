@@ -17,6 +17,12 @@
     transition: background .2s ease;
     line-height: 48px;
 
+    div {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+
     &.two-lines {
       line-height: 24px;
       span, a {
