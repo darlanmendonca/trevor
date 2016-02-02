@@ -61,3 +61,8 @@ md-datepicker-container {
     color: rgb(213,0,0);
   }
 }
+
+md-input-container .md-input {
+  position: relative;
+  z-index: 10;
+}
