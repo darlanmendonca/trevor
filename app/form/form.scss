@@ -66,3 +66,40 @@ md-input-container .md-input {
   position: relative;
   z-index: 10;
 }
+
+// forms
+label {
+  display: inline-block;
+}
+
+.help-block span {
+  font-size: 12px;
+  padding-right: 5px;
+  padding-top: 5px;
+  line-height: 14px;
+}
+
+.md-datepicker-container {
+  margin: 18px 0 20px;
+
+  label {
+    color: rgba(0,0,0,0.54);
+    transform: translate3d(65px, 6px, 0) scale(0.75);
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+
+  md-datepicker {
+    display: block;
+    margin-top: -7px;
+  }
+
+  .help-block {
+    padding-left: 64px;
+    transform: translateY(-5px);
+    color: rgb(213,0,0);
+    display: block;
+    transition: all .3s cubic-bezier(.55,0,.55,.2);
+  }
+}

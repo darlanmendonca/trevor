@@ -145,6 +145,15 @@
   }
 }
 
+.login md-card h2 {
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: -20px;
+  margin-bottom: 50px;
+}
+
+.state-signin [layout] > md-input-container+md-input-container {margin-top: 0 !important;}
+
 @keyframes enterDetail {
   0% {
     transform: translateY(-60vh);
