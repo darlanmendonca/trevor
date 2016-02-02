@@ -4,7 +4,11 @@
 
   .title {
     color: $hidden-color;
-    font-weight: normal
+    font-weight: normal;
+
+    div {
+      & + div {padding-left: 20px}
+    }
   }
 
   .title, .item {

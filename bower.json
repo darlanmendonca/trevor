@@ -1,6 +1,6 @@
 {
   "name": "trevor",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Trevor is an Admin components, built in with Angular and React, following Material Design.",
   "main": [
     "dist/trevor.min.js",
