@@ -1,6 +1,6 @@
 {
   "name": "trevor",
-  "version": "0.0.30",
+  "version": "0.0.31",
   "description": "My best Friend!! Trevor is an Admin theme, built in with Angular and React, following Material Design.",
   "main": [
     "./dist/trevor.min.js",
@@ -42,6 +42,7 @@
     "gulp-concat": "^2.6.0",
     "gulp-eslint": "^1.1.1",
     "gulp-minify": "0.0.5",
+    "gulp-ng-annotate": "^2.0.0",
     "gulp-plumber": "^1.0.1",
     "gulp-sass": "^2.1.1",
     "gulp-uglify": "^1.5.1",
